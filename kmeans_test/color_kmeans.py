@@ -20,10 +20,10 @@ args = vars(ap.parse_args())
 image = cv2.imread(args["image"])
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-# show our image
-plt.figure()
-plt.axis("off")
-plt.imshow(image)
+# # show our image
+# plt.figure()
+# plt.axis("off")
+# plt.imshow(image)
 
 # reshape the image to be a list of pixels
 image = image.reshape((image.shape[0] * image.shape[1], 3))
@@ -38,7 +38,7 @@ hist = utils.centroid_histogram(clt)
 bar = utils.plot_colors(hist, clt.cluster_centers_)
 
 # show our color bart
-plt.figure()
-plt.axis("off")
-plt.imshow(bar)
-plt.show()
+# plt.figure()
+# plt.axis("off")
+# plt.imshow(bar)
+# plt.show()

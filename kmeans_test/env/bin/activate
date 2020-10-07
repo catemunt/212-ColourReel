@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/hannahwilliamson/Desktop/Year Two/212-ColourReel/python-kmeans-dominant-colors/env"
+VIRTUAL_ENV="/Users/hannahwilliamson/Desktop/kmeans_test/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

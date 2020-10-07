@@ -29,6 +29,8 @@ def plot_colors(hist, centroids):
 		cv2.rectangle(bar, (int(startX), 0), (int(endX), 50),
 			color.astype("uint8").tolist(), -1)
 		startX = endX
+		print(color)
+		print(percent*100)
 
 	# return the bar chart
 	return bar
