@@ -1,0 +1,11 @@
+html {
+  background-color: #f7f1dd;
+  color: #302f2c;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: auto 20% auto 20%;
+  text-align: center;
+}
