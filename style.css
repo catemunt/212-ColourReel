@@ -3,6 +3,10 @@ html {
   color: #302f2c;
 }
 
+#heading {
+  text-align: center;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
