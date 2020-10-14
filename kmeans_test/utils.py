@@ -1,6 +1,9 @@
 # import the necessary packages
 import numpy as np
 import cv2
+import sqlite3
+
+DATADB = 'data.db'
 
 def centroid_histogram(clt):
 	# grab the number of different clusters and create a histogram
