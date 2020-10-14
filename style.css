@@ -7,13 +7,6 @@ html {
   text-align: center;
 }
 
-/* .grid-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  margin: auto 20% auto 20%;
-  text-align: center;
-} */
-
 #myChart {
   max-width: 20em;
 }
@@ -23,4 +16,8 @@ html {
   grid-template-columns: repeat(4, 1fr);
   margin: auto ;
   text-align: center;
+}
+
+.pieDiv {
+  padding:3em 0em 3em 0em;
 }
