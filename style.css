@@ -7,9 +7,20 @@ html {
   text-align: center;
 }
 
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin: auto 20% auto 20%;
+  text-align: center;
+} */
+
+#myChart {
+  max-width: 20em;
+}
+
+#charts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto ;
   text-align: center;
 }
