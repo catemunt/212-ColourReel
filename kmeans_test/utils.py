@@ -37,4 +37,4 @@ def plot_colors(hist, centroids):
 		#print(slices)
 
 	# return the bar chart
-	return bar
+	#return bar
