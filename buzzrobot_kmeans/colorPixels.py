@@ -24,6 +24,7 @@ dc = DominantColors(img, clusters)
 #print dominant colors
 colors = dc.dominantColors()
 print(colors)
+print(percent)
 
 #display clustered points
 dc.colorPixels()
