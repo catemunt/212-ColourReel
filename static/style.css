@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+
+html {
+  background-color: #f7f1dd;
+  color: #302f2c;
+}
+
+h1 {
+  font-size: 4em;
+}
+#heading {
+  text-align: center;
+  font-family: 'Cardo', serif;
+}
+
+#myChart {
+  max-width: 20em;
+}
+
+#charts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: auto ;
+  text-align: center;
+}
+
+.pieDiv {
+  padding:3em 0em 3em 0em;
+}
+
+text {
+  font-family: 'Cardo', serif;
+}
