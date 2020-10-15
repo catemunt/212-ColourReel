@@ -1,0 +1,1509 @@
+{
+    "type": "table",
+    "database": null,
+    "name": "films",
+    "withoutRowId": true,
+    "ddl": "CREATE TABLE films (id INTEGER PRIMARY KEY, year INTEGER NOT NULL, film STRING NOT NULL, producer STRING NOT NULL, winner BOOLEAN NOT NULL, img STRING NOT NULL, colours, percentage INTEGER);",
+    "columns": [
+        {
+            "name": "id",
+            "type": "INTEGER",
+            "constraints": [
+                {
+                    "type": "PRIMARY KEY",
+                    "definition": "PRIMARY KEY"
+                }
+            ]
+        },
+        {
+            "name": "year",
+            "type": "INTEGER",
+            "constraints": [
+                {
+                    "type": "NOT NULL",
+                    "definition": "NOT NULL"
+                }
+            ]
+        },
+        {
+            "name": "film",
+            "type": "STRING",
+            "constraints": [
+                {
+                    "type": "NOT NULL",
+                    "definition": "NOT NULL"
+                }
+            ]
+        },
+        {
+            "name": "producer",
+            "type": "STRING",
+            "constraints": [
+                {
+                    "type": "NOT NULL",
+                    "definition": "NOT NULL"
+                }
+            ]
+        },
+        {
+            "name": "winner",
+            "type": "BOOLEAN",
+            "constraints": [
+                {
+                    "type": "NOT NULL",
+                    "definition": "NOT NULL"
+                }
+            ]
+        },
+        {
+            "name": "img",
+            "type": "STRING",
+            "constraints": [
+                {
+                    "type": "NOT NULL",
+                    "definition": "NOT NULL"
+                }
+            ]
+        },
+        {
+            "name": "colours",
+            "type": ""
+        },
+        {
+            "name": "percentage",
+            "type": "INTEGER"
+        }
+    ],
+    "rows": [
+        [
+            1,
+            2000,
+            "Gladiator",
+            "Douglas Wick, David Franzoni, and Branko Lustig",
+            "TRUE",
+            "1.jpg",
+            "[201, 190, 140], [10, 6, 4], [146, 127, 62], [221, 215, 190], [61, 52, 35]",
+            "[11, 47, 8, 23, 12]"
+        ],
+        [
+            2,
+            2000,
+            "Chocolat",
+            "David Brown, Kit Golden, and Leslie Holleran",
+            "FALSE",
+            "2.jpg",
+            "[231, 166, 128], [17, 12, 10], [150, 68, 40], [204, 111, 69], [70, 35, 27]",
+            "[12, 40, 13, 20, 14]"
+        ],
+        [
+            3,
+            2000,
+            "Crouching Tiger, Hidden Dragon",
+            "William Kong, Hsu Li-kong, and Ang Lee",
+            "FALSE",
+            "3.jpg",
+            "[50, 19, 39], [220, 210, 24], [156, 61, 42], [233, 230, 148], [194, 139, 28]",
+            "[20, 22, 27, 5, 25]"
+        ],
+        [
+            4,
+            2000,
+            "Erin Brockovich",
+            "Danny DeVito, Michael Shamberg, and Stacey Sher",
+            "FALSE",
+            "4.jpg",
+            "[249, 246, 233], [182, 113, 75], [213, 198, 157], [79, 93, 122], [93, 35, 24]",
+            "[33, 25, 26, 10, 7]"
+        ],
+        [
+            5,
+            2000,
+            "Traffic",
+            "Edward Zwick, Marshall Herskovitz, and Laura Bickford",
+            "FALSE",
+            "5.jpg",
+            "[10, 7, 4], [208, 160, 81], [136, 86, 44], [65, 38, 21], [234, 228, 203]",
+            "[56, 8, 13, 19, 4]"
+        ],
+        [
+            6,
+            2001,
+            "A Beautiful Mind",
+            "Brian Grazer and Ron Howard",
+            "TRUE",
+            "6.jpg",
+            "[197, 185, 154], [97, 77, 59], [230, 230, 217], [35, 28, 27], [159, 128, 101]",
+            "[14, 14, 17, 39, 16]"
+        ],
+        [
+            7,
+            2001,
+            "Gosford Park",
+            "Robert Altman, Bob Balaban, and David Levy",
+            "FALSE",
+            "7.jpg",
+            "[14, 6, 9], [243, 241, 240], [169, 17, 5], [184, 175, 173], [114, 95, 91]",
+            "[46, 29, 13, 9, 3]"
+        ],
+        [
+            8,
+            2001,
+            "In the Bedroom",
+            "Graham Leader, Ross Katz, and Todd Field",
+            "FALSE",
+            "8.jpg",
+            "[122, 120, 126], [27, 24, 29], [206, 188, 177], [166, 107, 69], [72, 62, 62]",
+            "[9, 57, 6, 10, 17]"
+        ],
+        [
+            9,
+            2001,
+            "The Lord of the Rings: The Fellowship of the Ring",
+            "Peter Jackson, Fran Walsh, and Barrie M. Osborne",
+            "FALSE",
+            "9.jpg",
+            "[187, 170, 133], [30, 25, 16], [224, 223, 207], [88, 67, 39], [141, 118, 79]",
+            "[17, 32, 15, 19, 16]"
+        ],
+        [
+            10,
+            2001,
+            "Moulin Rouge!",
+            "Martin Brown, Baz Luhrmann, and Fred Baron",
+            "FALSE",
+            "10.jpg",
+            "[12, 9, 14], [129, 94, 84], [189, 10, 20], [34, 101, 154], [221, 195, 182]",
+            "[65, 11, 11, 5, 8]"
+        ],
+        [
+            11,
+            2002,
+            "Chicago",
+            "Martin Richards",
+            "TRUE",
+            "11.jpg",
+            "[123, 106, 106], [7, 2, 3], [225, 194, 180], [207, 75, 44], [75, 29, 30]",
+            "[7, 58, 9, 7, 19]"
+        ],
+        [
+            12,
+            2002,
+            "Gangs of New York",
+            "Alberto Grimaldi and Harvey Weinstein",
+            "FALSE",
+            "12.jpg",
+            "[18, 21, 12], [233, 211, 153], [131, 101, 60], [63, 57, 35], [193, 157, 95]",
+            "[46, 7, 11, 26, 10]"
+        ],
+        [
+            13,
+            2002,
+            "The Hours",
+            "Scott Rudin and Robert Fox",
+            "FALSE",
+            "13.jpg",
+            "[103, 68, 53], [235, 185, 135], [252, 249, 236], [170, 124, 92], [41, 27, 22]",
+            "[21, 21, 14, 20, 24]"
+        ],
+        [
+            14,
+            2002,
+            "The Lord of the Rings: The Two Towers",
+            "Barrie M. Osborne, Fran Walsh, and Peter Jackson",
+            "FALSE",
+            "14.jpg",
+            "[77, 61, 40], [191, 171, 129], [14, 9, 6], [233, 221, 188], [134, 114, 79]",
+            "[19, 15, 36, 16, 14]"
+        ],
+        [
+            15,
+            2002,
+            "The Pianist",
+            "Roman Polanski, Robert Benmussa, and Alain Sarde",
+            "FALSE",
+            "15.jpg",
+            "[2, 1, 1], [150, 119, 81], [82, 67, 50], [37, 31, 25], [205, 173, 126]",
+            "[70, 5, 7, 14, 4]"
+        ],
+        [
+            16,
+            2003,
+            "The Lord of the Rings: The Return of the King",
+            "Barrie M. Osborne, Peter Jackson, and Fran Walsh",
+            "TRUE",
+            "16.jpg",
+            "[16, 12, 8], [170, 151, 117], [218, 202, 171], [119, 102, 75], [64, 53, 37]",
+            "[30, 18, 15, 17, 20]"
+        ],
+        [
+            17,
+            2003,
+            "Lost in Translation",
+            "Ross Katz and Sofia Coppola",
+            "FALSE",
+            "17.jpg",
+            "[245, 240, 217], [150, 123, 82], [37, 16, 10], [200, 185, 139], [96, 70, 46]",
+            "[18, 22, 18, 20, 22]"
+        ],
+        [
+            18,
+            2003,
+            "Master and Commander: The Far Side of the World",
+            "Samuel Goldwyn Jr., Peter Weir, and Duncan Henderson",
+            "FALSE",
+            "18.jpg",
+            "[49, 57, 75], [82, 95, 114], [125, 140, 155], [30, 31, 40], [186, 189, 195]",
+            "[25, 18, 12, 40, 5]"
+        ],
+        [
+            19,
+            2003,
+            "Mystic River",
+            "Robert Lorenz, Judie G. Hoyt, and Clint Eastwood",
+            "FALSE",
+            "19.jpg",
+            "[21, 50, 72], [83, 128, 178], [1, 4, 23], [57, 90, 122], [203, 217, 228]",
+            "[17, 22, 38, 22, 1]"
+        ],
+        [
+            20,
+            2003,
+            "Seabiscuit",
+            "Kathleen Kennedy, Frank Marshall, and Gary Ross",
+            "FALSE",
+            "20.jpg",
+            "[6, 2, 2], [205, 165, 106], [148, 104, 59], [247, 232, 199], [80, 47, 25]",
+            "[64, 9, 12, 4, 12]"
+        ],
+        [
+            21,
+            2004,
+            "Million Dollar Baby",
+            "Clint Eastwood, Albert S. Ruddy, and Tom Rosenberg",
+            "TRUE",
+            "21.jpg",
+            "[2, 1, 2], [156, 150, 151], [49, 42, 43], [224, 221, 221], [96, 89, 90]",
+            "[75, 4, 11, 3, 7]"
+        ],
+        [
+            22,
+            2004,
+            "The Aviator",
+            "Michael Mann and Graham King",
+            "FALSE",
+            "22.jpg",
+            "[87, 85, 98], [52, 51, 63], [210, 197, 185], [135, 131, 139], [20, 18, 27]",
+            "[25, 27, 9, 15, 24]"
+        ],
+        [
+            23,
+            2004,
+            "Finding Neverland",
+            "Richard N. Gladstein and Nellie Bellflower",
+            "FALSE",
+            "23.jpg",
+            "[36, 22, 16], [235, 206, 178], [125, 86, 62], [250, 248, 246], [200, 154, 119]",
+            "[11, 23, 15, 37, 13]"
+        ],
+        [
+            24,
+            2004,
+            "Ray",
+            "Taylor Hackford, Stuart Benjamin, and Howard Baldwin",
+            "FALSE",
+            "24.jpg",
+            "[4, 1, 22], [250, 249, 250], [67, 65, 79], [156, 155, 162], [36, 34, 48]",
+            "[86, 3, 4, 1, 6]"
+        ],
+        [
+            25,
+            2004,
+            "Sideways",
+            "Michael London",
+            "FALSE",
+            "25.jpg",
+            "[148, 191, 43], [23, 29, 2], [212, 236, 156], [92, 114, 32], [173, 201, 90]",
+            "[76, 6, 6, 6, 6]"
+        ],
+        [
+            26,
+            2005,
+            "Crash",
+            "Paul Haggis and Cathy Schulman",
+            "TRUE",
+            "26.jpg",
+            "[221, 220, 197], [11, 9, 5], [152, 143, 95], [99, 81, 42], [55, 35, 15]",
+            "[8, 55, 4, 8, 25]"
+        ],
+        [
+            27,
+            2005,
+            "Brokeback Mountain",
+            "Diana Ossana and James Schamus",
+            "FALSE",
+            "27.jpg",
+            "[105, 82, 72], [8, 9, 9], [223, 227, 223], [51, 47, 39], [135, 147, 148]",
+            "[21, 43, 9, 16, 10]"
+        ],
+        [
+            28,
+            2005,
+            "Capote",
+            "Caroline Baron, William Vince, and Michael Ohoven",
+            "FALSE",
+            "28.jpg",
+            "[252, 252, 251], [70, 67, 65], [204, 195, 181], [148, 135, 122], [15, 13, 13]",
+            "[38, 10, 13, 5, 35]"
+        ],
+        [
+            29,
+            2005,
+            "Good Night, and Good Luck",
+            "Grant Heslov",
+            "FALSE",
+            "29.jpg",
+            "[252, 252, 252], [11, 6, 5], [147, 136, 137], [210, 206, 205], [74, 49, 50]",
+            "[26, 46, 7, 11, 10]"
+        ],
+        [
+            30,
+            2005,
+            "Munich",
+            "Steven Spielberg, Kathleen Kennedy, and Barry Mendel",
+            "FALSE",
+            "30.jpg",
+            "[5, 2, 3], [237, 236, 232], [81, 72, 71], [158, 155, 148], [43, 36, 35]",
+            "[61, 15, 7, 4, 13]"
+        ],
+        [
+            31,
+            2006,
+            "The Departed",
+            "Graham King",
+            "TRUE",
+            "31.jpg",
+            "[4, 2, 2], [196, 173, 149], [129, 109, 94], [245, 238, 224], [82, 48, 40]",
+            "[62, 8, 11, 7, 12]"
+        ],
+        [
+            32,
+            2006,
+            "Babel",
+            "Alejandro GonzÃƒÂ¡lez IÃƒÂ±ÃƒÂ¡rritu, Steve Golin, and Jon Kilik",
+            "FALSE",
+            "32.jpg",
+            "[7, 6, 6], [141, 132, 128], [194, 202, 205], [74, 68, 66], [248, 245, 241]",
+            "[38, 16, 14, 20, 12]"
+        ],
+        [
+            33,
+            2006,
+            "Letters from Iwo Jima",
+            "Clint Eastwood, Steven Spielberg, and Robert Lorenz",
+            "FALSE",
+            "33.jpg",
+            "[56, 54, 37], [239, 236, 219], [11, 10, 6], [177, 173, 143], [116, 112, 81]",
+            "[19, 10, 51, 8, 11]"
+        ],
+        [
+            34,
+            2006,
+            "Little Miss Sunshine",
+            "David T. Friendly, Peter Saraf, and Marc Turtletaub",
+            "FALSE",
+            "34.jpg",
+            "[242, 204, 65], [25, 16, 9], [130, 94, 32], [234, 226, 204], [191, 153, 58]",
+            "[74, 7, 6, 3, 11]"
+        ],
+        [
+            35,
+            2006,
+            "The Queen",
+            "Andy Harries, Christine Langan, and Tracey Seaward",
+            "FALSE",
+            "35.jpg",
+            "[198, 190, 183], [130, 115, 108], [229, 218, 211], [79, 55, 50][170, 160, 152]",
+            "[33, 7, 40, 5, 15]"
+        ],
+        [
+            36,
+            2007,
+            "No Country for Old Men",
+            "Scott Rudin, Joel Coen, and Ethan Coen",
+            "TRUE",
+            "36.jpg",
+            "[117, 96, 83], [9, 6, 4], [176, 144, 117], [58, 51, 46], [229, 218, 201]",
+            "[15, 43, 13, 23, 6]"
+        ],
+        [
+            37,
+            2007,
+            "Atonement",
+            "Tim Bevan, Eric Fellner, and Paul Webster",
+            "FALSE",
+            "37.jpg",
+            "[96, 95, 73], [166, 161, 156], [25, 25, 12], [231, 215, 211], [184, 124, 87]",
+            "[19, 15, 28, 17, 21]"
+        ],
+        [
+            38,
+            2007,
+            "Juno",
+            "Lianne Halfon, Mason Novick, and Russell Smith",
+            "FALSE",
+            "38.jpg",
+            "[238, 104, 16], [228, 187, 145], [68, 20, 14], [101, 96, 90], [253, 250, 243]",
+            "[33, 15, 14, 6, 32]"
+        ],
+        [
+            39,
+            2007,
+            "Michael Clayton",
+            "Jennifer Fox, Kerry Orent, and Sydney Pollack",
+            "FALSE",
+            "39.jpg",
+            "[166, 147, 128], [219, 212, 203], [10, 8, 9], [215, 57, 45], [90, 72, 62]",
+            "[15, 25, 28, 10, 22]"
+        ],
+        [
+            40,
+            2007,
+            "There Will Be Blood",
+            "Paul Thomas Anderson, Daniel Lupi, and JoAnne Sellar",
+            "FALSE",
+            "40.jpg",
+            "[3, 4, 4], [232, 205, 155], [76, 75, 66], [34, 28, 30], [161, 130, 98]",
+            "[74, 2, 5, 16, 3]"
+        ],
+        [
+            41,
+            2008,
+            "Slumdog Millionaire",
+            "Christian Colson",
+            "TRUE",
+            "41.jpg",
+            "[126, 43, 26], [203, 213, 237], [103, 57, 200], [8, 6, 9], [177, 188, 67]",
+            "[10, 8, 11, 63, 7]"
+        ],
+        [
+            42,
+            2008,
+            "The Curious Case of Benjamin Button",
+            "Kathleen Kennedy, Frank Marshall, and CeÃƒÂ¡n Chaffin",
+            "FALSE",
+            "42.jpg",
+            "[9, 6, 4], [198, 162, 119], [62, 45, 29], [241, 221, 189], [124, 95, 66]",
+            "[40, 12, 20, 16, 12]"
+        ],
+        [
+            43,
+            2008,
+            "Frost\/Nixon",
+            "Ron Howard, Brian Grazer, and Eric Fellner",
+            "FALSE",
+            "43.jpg",
+            "[46, 44, 42], [179, 159, 158], [133, 109, 106], [242, 232, 229], [76, 70, 69]",
+            "[80, 3, 4, 2, 10]"
+        ],
+        [
+            44,
+            2008,
+            "Milk",
+            "Bruce Cohen and Dan Jinks",
+            "FALSE",
+            "44.jpg",
+            "[209, 203, 198], [104, 114, 124], [243, 238, 234], [58, 46, 37][170, 163, 159]",
+            "[25, 17, 32, 6, 20]"
+        ],
+        [
+            45,
+            2008,
+            "The Reader",
+            "Anthony Minghella, Sydney Pollack, Donna Gigliotti, and Redmond Morris",
+            "FALSE",
+            "45.jpg",
+            "[254, 254, 253], [122, 105, 92], [222, 212, 206], [71, 55, 45], [176, 158, 146]",
+            "[65, 9, 12, 6, 9]"
+        ],
+        [
+            46,
+            2009,
+            "The Hurt Locker",
+            "Kathryn Bigelow, Mark Boal, Nicolas Chartier, and Greg Shapiro",
+            "TRUE",
+            "46.jpg",
+            "[149, 96, 83], [201, 200, 196], [230, 228, 224], [173, 170, 166], [55, 53, 42]",
+            "[7, 32, 38, 20, 3]"
+        ],
+        [
+            47,
+            2009,
+            "Avatar",
+            "James Cameron and Jon Landau",
+            "FALSE",
+            "47.jpg",
+            "[11, 10, 14], [136, 122, 127], [40, 60, 100], [203, 198, 201], [83, 51, 31]",
+            "[55, 10, 20, 6, 9]"
+        ],
+        [
+            48,
+            2009,
+            "The Blind Side",
+            "Gil Netter, Andrew A. Kosove, and Broderick Johnson",
+            "FALSE",
+            "48.jpg",
+            "[122, 113, 81], [230, 234, 237], [21, 19, 16], [156, 174, 189], [73, 70, 49]",
+            "[13, 21, 23, 17, 25]"
+        ],
+        [
+            49,
+            2009,
+            "District 9",
+            "Peter Jackson and Carolynne Cunningham",
+            "FALSE",
+            "49.jpg",
+            "[17, 11, 8], [174, 178, 182], [125, 111, 103], [71, 61, 54], [227, 228, 224]",
+            "[22, 17, 15, 21, 25]"
+        ],
+        [
+            50,
+            2009,
+            "An Education",
+            "Finola Dwyer and Amanda Posey",
+            "FALSE",
+            "50.jpg",
+            "[16, 17, 19], [219, 193, 184], [73, 83, 83], [245, 243, 243], [137, 148, 158]",
+            "[25, 21, 15, 25, 14]"
+        ],
+        [
+            51,
+            2009,
+            "Inglourious Basterds",
+            "Lawrence Bender",
+            "FALSE",
+            "51.jpg",
+            "[252, 251, 250], [139, 31, 25], [23, 20, 20], [100, 88, 84], [199, 153, 142]",
+            "[55, 12, 18, 7, 8]"
+        ],
+        [
+            52,
+            2009,
+            "Precious: Based on the Novel 'Push' by Sapphire",
+            "Lee Daniels, Sarah Siegel-Magness, and Gary Magness",
+            "FALSE",
+            "52.jpg",
+            "[254, 255, 254], [113, 122, 126], [10, 18, 24], [239, 241, 230], [180, 184, 184]",
+            "[81, 2, 2, 11, 4]"
+        ],
+        [
+            53,
+            2009,
+            "A Serious Man",
+            "Joel Coen and Ethan Coen",
+            "FALSE",
+            "53.jpg",
+            "[117, 130, 138], [239, 235, 212], [32, 34, 26], [85, 87, 75], [160, 169, 171]",
+            "[48, 19, 4, 13, 16]"
+        ],
+        [
+            54,
+            2009,
+            "Up",
+            "Jonas Rivera",
+            "FALSE",
+            "54.jpg",
+            "[62, 130, 185], [34, 50, 30], [221, 232, 239], [117, 106, 84], [167, 173, 180]",
+            "[24, 27, 14, 18, 17]"
+        ],
+        [
+            55,
+            2009,
+            "Up in the Air",
+            "Daniel Dubiecki, Ivan Reitman, and Jason Reitman",
+            "FALSE",
+            "55.jpg",
+            "[198, 217, 219], [53, 63, 62], [13, 15, 15], [143, 157, 155], [90, 103, 101]",
+            "[39, 14, 18, 13, 16]"
+        ],
+        [
+            56,
+            2010,
+            "The King's Speech",
+            "Iain Canning, Emile Sherman, and Gareth Unwin",
+            "TRUE",
+            "56.jpg",
+            "[250, 167, 32], [73, 50, 28], [21, 10, 5], [193, 130, 39], [128, 80, 34]",
+            "[56, 12, 11, 11, 9]"
+        ],
+        [
+            57,
+            2010,
+            "127 Hours",
+            "Danny Boyle, John Smithson, and Christian Colson",
+            "FALSE",
+            "57.jpg",
+            "[17, 6, 4], [222, 230, 214], [84, 29, 15], [39, 94, 131], [204, 136, 79]",
+            "[60, 10, 16, 7, 6]"
+        ],
+        [
+            58,
+            2010,
+            "Black Swan",
+            "Scott Franklin, Mike Medavoy, and Brian Oliver",
+            "FALSE",
+            "58.jpg",
+            "[241, 238, 241], [32, 30, 33], [151, 150, 155], [89, 88, 94], [217, 209, 209]",
+            "[65, 6, 5, 5, 19]"
+        ],
+        [
+            59,
+            2010,
+            "The Fighter",
+            "David Hoberman, Todd Lieberman, and Mark Wahlberg",
+            "FALSE",
+            "59.jpg",
+            "[4, 1, 1], [241, 231, 202], [140, 100, 61], [201, 166, 119], [62, 41, 26]",
+            "[67, 7, 7, 7, 12]"
+        ],
+        [
+            60,
+            2010,
+            "Inception",
+            "Christopher Nolan and Emma Thomas",
+            "FALSE",
+            "60.jpg",
+            "[14, 53, 72], [111, 151, 167], [5, 9, 19], [180, 205, 215], [62, 97, 114]",
+            "[28, 13, 35, 7, 17]"
+        ],
+        [
+            61,
+            2010,
+            "The Kids Are All Right",
+            "Gary Gilbert, Jeffrey Levy-Hinte, and Celine Rattray",
+            "FALSE",
+            "61.jpg",
+            "[208, 224, 222], [183, 175, 131], [58, 50, 40], [98, 166, 199], [143, 195, 214]",
+            "[19, 14, 8, 26, 32]"
+        ],
+        [
+            62,
+            2010,
+            "The Social Network",
+            "Dana Brunetti, CeÃƒÂ¡n Chaffin, Michael De Luca, and Scott Rudin",
+            "FALSE",
+            "62.jpg",
+            "[110, 100, 87], [26, 35, 42], [59, 59, 59], [199, 196, 190], [146, 138, 123]",
+            "[10, 66, 9, 2, 13]"
+        ],
+        [
+            63,
+            2010,
+            "Toy Story 3",
+            "Darla K. Anderson",
+            "FALSE",
+            "63.jpg",
+            "[226, 228, 200], [134, 70, 24], [216, 181, 108], [44, 31, 29], [169, 135, 76]",
+            "[14, 20, 32, 15, 19]"
+        ],
+        [
+            64,
+            2010,
+            "True Grit",
+            "Joel Coen, Ethan Coen, and Scott Rudin",
+            "FALSE",
+            "64.jpg",
+            "[114, 96, 82], [21, 14, 10], [243, 236, 228], [69, 52, 42], [176, 159, 148]",
+            "[16, 39, 10, 26, 9]"
+        ],
+        [
+            65,
+            2010,
+            "Winter's Bone",
+            "Alix Madigan and Anne Rosellini",
+            "FALSE",
+            "65.jpg",
+            "[43, 60, 77], [130, 150, 167], [11, 18, 31], [207, 218, 227], [86, 107, 126]",
+            "[16, 15, 47, 6, 16]"
+        ],
+        [
+            66,
+            2011,
+            "The Artist",
+            "Thomas Langmann",
+            "TRUE",
+            "66.jpg",
+            "[3, 2, 2], [240, 239, 237], [96, 96, 94], [40, 38, 38], [165, 164, 162]",
+            "[85, 2, 3, 8, 2]"
+        ],
+        [
+            67,
+            2011,
+            "The Descendants",
+            "Jim Burke, Alexander Payne, and Jim Taylor",
+            "FALSE",
+            "67.jpg",
+            "[132, 27, 19], [243, 239, 223], [183, 167, 131], [39, 24, 15], [116, 97, 67]",
+            "[16, 25, 11, 32, 16]"
+        ],
+        [
+            68,
+            2011,
+            "Extremely Loud & Incredibly Close",
+            "Scott Rudin",
+            "FALSE",
+            "68.jpg",
+            "[168, 123, 98], [34, 24, 24], [105, 77, 66], [250, 226, 210], [216, 169, 145]",
+            "[25, 22, 20, 15, 18]"
+        ],
+        [
+            69,
+            2011,
+            "The Help",
+            "Brunson Green, Chris Columbus, and Michael Barnathan",
+            "FALSE",
+            "69.jpg",
+            "[225, 184, 66], [128, 101, 100], [225, 213, 206], [180, 154, 136], [74, 55, 38]",
+            "[69, 12, 5, 10, 5]"
+        ],
+        [
+            70,
+            2011,
+            "Hugo",
+            "Graham King and Martin Scorsese",
+            "FALSE",
+            "70.jpg",
+            "[137, 97, 57], [240, 219, 157], [64, 104, 116], [40, 40, 31], [163, 154, 143]",
+            "[13, 16, 15, 37, 18]"
+        ],
+        [
+            71,
+            2011,
+            "Midnight in Paris",
+            "Letty Aronson and Stephen Tenenbaum",
+            "FALSE",
+            "71.jpg",
+            "[80, 135, 163], [132, 185, 192], [34, 46, 56], [57, 87, 115], [209, 236, 210]",
+            "[26, 20, 12, 27, 15]"
+        ],
+        [
+            72,
+            2011,
+            "Moneyball",
+            "Michael De Luca, Rachael Horovitz, and Brad Pitt",
+            "FALSE",
+            "72.jpg",
+            "[210, 217, 214], [7, 10, 10], [134, 162, 82], [55, 70, 71], [100, 128, 137]",
+            "[6, 37, 25, 20, 12]"
+        ],
+        [
+            73,
+            2011,
+            "The Tree of Life",
+            "Sarah Green, Bill Pohlad, Dede Gardner, and Grant Hill",
+            "FALSE",
+            "73.jpg",
+            "[127, 84, 70], [209, 171, 156], [248, 240, 233], [168, 124, 109], [90, 48, 38]",
+            "[32, 20, 8, 23, 16]"
+        ],
+        [
+            74,
+            2011,
+            "War Horse",
+            "Steven Spielberg and Kathleen Kennedy",
+            "FALSE",
+            "74.jpg",
+            "[184, 147, 124], [37, 15, 6], [112, 65, 43], [235, 203, 164], [182, 101, 57]",
+            "[15, 37, 22, 13, 13]"
+        ],
+        [
+            75,
+            2012,
+            "Argo",
+            "Grant Heslov, Ben Affleck, and George Clooney",
+            "TRUE",
+            "75.jpg",
+            "[10, 14, 24], [140, 156, 170], [60, 85, 104], [162, 44, 38], [236, 227, 229]",
+            "[44, 22, 21, 10, 4]"
+        ],
+        [
+            76,
+            2012,
+            "Amour",
+            "Margaret Menegoz, Stefan Arndt, Veit Heiduschka, and Michael Katz",
+            "FALSE",
+            "76.jpg",
+            "[13, 6, 9], [188, 150, 135], [59, 46, 47], [244, 230, 226], [118, 89, 85]",
+            "[49, 8, 23, 5, 15]"
+        ],
+        [
+            77,
+            2012,
+            "Beasts of the Southern Wild",
+            "Dan Janvey, Josh Penn, and Michael Gottwald",
+            "FALSE",
+            "77.jpg",
+            "[123, 120, 87], [33, 26, 33], [222, 213, 204], [171, 160, 150], [77, 69, 55]",
+            "[22, 27, 12, 15, 25]"
+        ],
+        [
+            78,
+            2012,
+            "Django Unchained",
+            "Stacey Sher, Reginald Hudlin, and Pilar Savone",
+            "FALSE",
+            "78.jpg",
+            "[65, 59, 59], [250, 249, 249], [160, 153, 153], [177, 27, 33], [13, 8, 8]",
+            "[13, 35, 8, 5, 39]"
+        ],
+        [
+            79,
+            2012,
+            "Les Miserables",
+            "Tim Bevan, Eric Fellner, Debra Hayward, and Cameron Mackintosh",
+            "FALSE",
+            "79.jpg",
+            "[159, 147, 136], [39, 47, 52], [5, 6, 9], [86, 90, 90], [217, 205, 192]",
+            "[11, 21, 37, 16, 15]"
+        ],
+        [
+            80,
+            2012,
+            "Life of Pi",
+            "Gil Netter, Ang Lee, and David Womark",
+            "FALSE",
+            "80.jpg",
+            "[191, 155, 135], [86, 58, 63], [239, 218, 205], [218, 187, 167], [161, 101, 74]",
+            "[30, 4, 19, 38, 8]"
+        ],
+        [
+            81,
+            2012,
+            "Lincoln",
+            "Steven Spielberg and Kathleen Kennedy",
+            "FALSE",
+            "81.jpg",
+            "[56, 56, 56], [254, 254, 254], [12, 12, 12], [124, 124, 123], [206, 206, 207]",
+            "[11, 35, 40, 7, 7]"
+        ],
+        [
+            82,
+            2012,
+            "Silver Linings Playbook",
+            "Donna Gigliotti, Bruce Cohen, and Jonathan Gordon",
+            "FALSE",
+            "82.jpg",
+            "[7, 6, 5], [189, 189, 184], [68, 67, 60], [244, 244, 244], [132, 131, 124]",
+            "[45, 17, 15, 10, 13]"
+        ],
+        [
+            83,
+            2012,
+            "Zero Dark Thirty",
+            "Mark Boal, Kathryn Bigelow, and Megan Ellison",
+            "FALSE",
+            "83.jpg",
+            "[128, 128, 125], [2, 2, 2], [92, 84, 82], [48, 48, 48], [169, 170, 166]",
+            "[10, 62, 11, 10, 6]"
+        ],
+        [
+            84,
+            2013,
+            "12 Years a Slave",
+            "Brad Pitt, Dede Gardner, Jeremy Kleiner, Steve McQueen, and Anthony Katagas",
+            "TRUE",
+            "84.jpg",
+            "[12, 8, 5], [254, 254, 253], [131, 117, 92], [82, 66, 42], [190, 179, 155]",
+            "[23, 52, 9, 11, 5]"
+        ],
+        [
+            85,
+            2013,
+            "American Hustle",
+            "Charles Roven, Richard Suckle, Megan Ellison, and Jonathan Gordon",
+            "FALSE",
+            "85.jpg",
+            "[55, 28, 21], [157, 124, 97], [96, 75, 63], [4, 2, 2], [232, 195, 116]",
+            "[12, 7, 11, 65, 5]"
+        ],
+        [
+            86,
+            2013,
+            "Captain Phillips",
+            "Scott Rudin, Dana Brunetti, and Michael De Luca",
+            "FALSE",
+            "86.jpg",
+            "[8, 9, 8], [199, 202, 201], [95, 93, 94], [149, 153, 152], [51, 49, 49]",
+            "[50, 16, 12, 8, 13]"
+        ],
+        [
+            87,
+            2013,
+            "Dallas Buyers Club",
+            "Robbie Brenner and Rachel Winter",
+            "FALSE",
+            "87.jpg",
+            "[101, 94, 94], [220, 218, 192], [250, 248, 214], [175, 178, 167], [140, 143, 143]",
+            "[12, 17, 35, 20, 16]"
+        ],
+        [
+            88,
+            2013,
+            "Gravity",
+            "Alfonso Cuaron and David Heyman",
+            "FALSE",
+            "88.jpg",
+            "[217, 230, 238], [1, 2, 9], [60, 93, 115], [15, 36, 57], [131, 158, 177]",
+            "[10, 51, 10, 23, 7]"
+        ],
+        [
+            89,
+            2013,
+            "Her",
+            "Megan Ellison, Spike Jonze, and Vincent Landay",
+            "FALSE",
+            "89.jpg",
+            "[189, 20, 55], [131, 74, 63], [67, 14, 15], [184, 122, 107], [250, 234, 231]",
+            "[44, 16, 17, 23, 1]"
+        ],
+        [
+            90,
+            2013,
+            "Nebraska",
+            "Albert Berger and Ron Yerxa",
+            "FALSE",
+            "90.jpg",
+            "[18, 18, 18], [195, 195, 195], [140, 140, 140], [83, 83, 83], [251, 251, 251]",
+            "[71, 6, 7, 5, 12]"
+        ],
+        [
+            91,
+            2013,
+            "Philomena",
+            "Gabrielle Tana, Steve Coogan, and Tracey Seaward",
+            "FALSE",
+            "91.jpg",
+            "[225, 182, 9], [105, 29, 20], [182, 153, 131], [97, 82, 55], [49, 31, 21]",
+            "[28, 13, 14, 22, 23]"
+        ],
+        [
+            92,
+            2013,
+            "The Wolf of Wall Street",
+            "Martin Scorsese, Leonardo DiCaprio, Joey McFarland, and Emma Tillinger Koskoff",
+            "FALSE",
+            "92.jpg",
+            "[79, 62, 40], [223, 206, 189], [150, 123, 89], [18, 13, 13], [238, 189, 56]",
+            "[18, 8, 11, 54, 8]"
+        ],
+        [
+            93,
+            2014,
+            "Birdman or",
+            "Alejandro G. IÃƒÂ±ÃƒÂ¡rritu, John Lesher, and James W. Skotchdopole",
+            "TRUE",
+            "93.jpg",
+            "[17, 5, 4], [193, 5, 25], [200, 112, 106], [92, 66, 58], [229, 197, 178]",
+            "[25, 50, 9, 7, 9]"
+        ],
+        [
+            94,
+            2014,
+            "American Sniper",
+            "Clint Eastwood, Andrew Lazar, Robert Lorenz, Bradley Cooper, and Peter Morgan",
+            "FALSE",
+            "94.jpg",
+            "[72, 65, 60], [232, 232, 233], [121, 104, 97], [161, 154, 150], [212, 213, 215]",
+            "[27, 32, 12, 6, 23]"
+        ],
+        [
+            95,
+            2014,
+            "Boyhood",
+            "Richard Linklater and Cathleen Sutherland",
+            "FALSE",
+            "95.jpg",
+            "[95, 114, 66], [214, 212, 200], [69, 89, 38], [35, 49, 23], [133, 144, 139]",
+            "[28, 6, 40, 16, 9]"
+        ],
+        [
+            96,
+            2014,
+            "The Grand Budapest Hotel",
+            "Wes Anderson, Scott Rudin, Steven M. Rales, and Jeremy Dawson",
+            "FALSE",
+            "96.jpg",
+            "[117, 105, 97], [37, 28, 20], [191, 169, 167], [76, 62, 52], [155, 133, 128]",
+            "[32, 18, 18, 9, 23]"
+        ],
+        [
+            97,
+            2014,
+            "The Imitation Game",
+            "Nora Grossman, Ido Ostrowsky, and Teddy Schwarzman",
+            "FALSE",
+            "97.jpg",
+            "[94, 50, 54], [215, 182, 172], [41, 19, 29], [128, 77, 70], [171, 135, 125]",
+            "[28, 12, 32, 21, 6]"
+        ],
+        [
+            98,
+            2014,
+            "Selma",
+            "Christian Colson, Oprah Winfrey, Dede Gardner, and Jeremy Kleiner",
+            "FALSE",
+            "98.jpg",
+            "[240, 242, 241], [9, 9, 9], [143, 138, 138], [87, 53, 52], [216, 214, 214]",
+            "[56, 26, 5, 6, 7]"
+        ],
+        [
+            99,
+            2014,
+            "The Theory of Everything",
+            "Tim Bevan, Eric Fellner, Lisa Bruce, and Anthony McCarten",
+            "FALSE",
+            "99.jpg",
+            "[122, 122, 102], [43, 41, 30], [196, 206, 201], [83, 85, 62], [157, 160, 143]",
+            "[23, 30, 8, 24, 15]"
+        ],
+        [
+            100,
+            2014,
+            "Whiplash",
+            "Jason Blum, Helen Estabrook, and David Lancaster",
+            "FALSE",
+            "100.jpg",
+            "[37, 42, 48], [143, 159, 169], [4, 3, 4], [70, 83, 92], [162, 46, 53]",
+            "[18, 3, 63, 14, 2]"
+        ],
+        [
+            101,
+            2015,
+            "Spotlight",
+            "Blye Pagon Faust, Steve Golin, Nicole Rocklin, and Michael Sugar",
+            "TRUE",
+            "101.jpg",
+            "[13, 15, 15], [250, 250, 248], [144, 138, 124], [210, 205, 196], [68, 67, 60]",
+            "[28, 31, 11, 16, 14]"
+        ],
+        [
+            102,
+            2015,
+            "The Big Short",
+            "Dede Gardner, Jeremy Kleiner, and Brad Pitt",
+            "FALSE",
+            "102.jpg",
+            "[87, 77, 67], [253, 252, 251], [33, 25, 24], [146, 129, 117], [196, 188, 184]",
+            "[21, 40, 13, 13, 13]"
+        ],
+        [
+            103,
+            2015,
+            "Bridge of Spies",
+            "Steven Spielberg, Marc Platt, and Kristie Macosko Krieger",
+            "FALSE",
+            "103.jpg",
+            "[10, 5, 7], [134, 129, 131], [76, 71, 74], [48, 21, 24], [214, 211, 212]",
+            "[47, 9, 16, 26, 2]"
+        ],
+        [
+            104,
+            2015,
+            "Brooklyn",
+            "Finola Dwyer and Amanda Posey",
+            "FALSE",
+            "104.jpg",
+            "[202, 196, 189], [123, 121, 120], [76, 79, 86], [166, 155, 148], [26, 33, 47]",
+            "[23, 20, 16, 20, 21]"
+        ],
+        [
+            105,
+            2015,
+            "Mad Max: Fury Road",
+            "Doug Mitchell and George Miller",
+            "FALSE",
+            "105.jpg",
+            "[163, 129, 78], [8, 5, 3], [89, 66, 35], [243, 212, 84], [64, 175, 174]",
+            "[15, 45, 15, 18, 6]"
+        ],
+        [
+            106,
+            2015,
+            "The Martian",
+            "Simon Kinberg, Ridley Scott, Michael Schaefer, and Mark Huffam",
+            "FALSE",
+            "106.jpg",
+            "[85, 64, 58], [192, 167, 146], [29, 19, 20], [234, 230, 222], [142, 114, 101]",
+            "[22, 18, 28, 12, 20]"
+        ],
+        [
+            107,
+            2015,
+            "The Revenant",
+            "Arnon Milchan, Steve Golin, Alejandro G. Ia¡rritu, Mary Parent, and Keith Redmon",
+            "FALSE",
+            "107.jpg",
+            "[55, 58, 78], [222, 234, 241], [23, 18, 30], [94, 109, 138], [147, 170, 191]",
+            "[21, 4, 44, 20, 11]"
+        ],
+        [
+            108,
+            2015,
+            "Room",
+            "Ed Guiney",
+            "FALSE",
+            "108.jpg",
+            "[79, 79, 78], [189, 214, 231], [95, 129, 149], [38, 34, 30], [132, 174, 198]",
+            "[20, 19, 21, 23, 17]"
+        ],
+        [
+            109,
+            2016,
+            "Moonlight",
+            "Adele Romanski, Dede Gardner, and Jeremy Kleiner",
+            "TRUE",
+            "109.jpg",
+            "[24, 121, 143], [46, 28, 75], [162, 181, 230], [4, 246, 240], [115, 94, 149]",
+            "[11, 37, 15, 13, 23]"
+        ],
+        [
+            110,
+            2016,
+            "Arrival",
+            "Shawn Levy, Dan Levine, Aaron Ryder, and David Linde",
+            "FALSE",
+            "110.jpg",
+            "[139, 122, 98], [73, 72, 61], [203, 186, 161], [30, 31, 26], [245, 241, 233]",
+            "[18, 30, 14, 27, 11]"
+        ],
+        [
+            111,
+            2016,
+            "Fences",
+            "Scott Rudin, Denzel Washington, and Todd Black",
+            "FALSE",
+            "111.jpg",
+            "[229, 228, 215], [7, 9, 9], [89, 94, 94], [43, 47, 48], [139, 143, 139]",
+            "[8, 52, 13, 17, 10]"
+        ],
+        [
+            112,
+            2016,
+            "Hacksaw Ridge",
+            "Bill Mechanic and David Permut",
+            "FALSE",
+            "112.jpg",
+            "[19, 17, 11], [213, 215, 199], [129, 127, 108], [177, 180, 164], [68, 64, 50]",
+            "[21, 30, 9, 29, 11]"
+        ],
+        [
+            113,
+            2016,
+            "Hell or High Water",
+            "Carla Hacken and Julie Yorn",
+            "FALSE",
+            "113.jpg",
+            "[210, 183, 142], [115, 102, 80], [165, 144, 108], [238, 227, 201], [72, 44, 39]",
+            "[25, 24, 27, 14, 11]"
+        ],
+        [
+            114,
+            2016,
+            "Hidden Figures",
+            "Donna Gigliotti, Peter Chernin, Jenno Topping, Pharrell Williams, and Theodore Melfi",
+            "FALSE",
+            "114.jpg",
+            "[134, 124, 124], [251, 250, 250], [22, 20, 24], [201, 185, 172], [76, 69, 75]",
+            "[15, 39, 17, 15, 14]"
+        ],
+        [
+            115,
+            2016,
+            "La La Land",
+            "Fred Berger, Jordan Horowitz, and Marc Platt",
+            "FALSE",
+            "115.jpg",
+            "[32, 21, 97], [7, 7, 44], [131, 119, 121], [60, 26, 160], [231, 229, 241]",
+            "[23, 57, 4, 16, 1]"
+        ],
+        [
+            116,
+            2016,
+            "Lion",
+            "Emile Sherman, Iain Canning, and Angie Fielder",
+            "FALSE",
+            "116.jpg",
+            "[70, 48, 36], [252, 251, 247], [178, 141, 108], [124, 92, 72], [216, 193, 163]",
+            "[9, 49, 15, 12, 15]"
+        ],
+        [
+            117,
+            2016,
+            "Manchester by the Sea",
+            "Matt Damon, Kimberly Steward, Chris Moore, Lauren Beck, and Kevin J. Walsh",
+            "FALSE",
+            "117.jpg",
+            "[144, 150, 149], [221, 238, 239], [34, 32, 44], [89, 92, 99], [187, 206, 206]",
+            "[9, 64, 8, 8, 11]"
+        ],
+        [
+            118,
+            2017,
+            "The Shape of Water",
+            "Guillermo del Toro and J. Miles Dale",
+            "TRUE",
+            "118.jpg",
+            "[4, 25, 48], [10, 74, 91], [7, 45, 64], [31, 147, 155], [9, 107, 120]",
+            "[46, 14, 28, 3, 10]"
+        ],
+        [
+            119,
+            2017,
+            "Call Me by Your Name",
+            "Peter Spears, Luca Guadagnino, Emilie Georges, and Marco Morabito",
+            "FALSE",
+            "119.jpg",
+            "[167, 196, 209], [6, 104, 176], [78, 63, 61], [128, 125, 126], [24, 9, 11]",
+            "[10, 63, 12, 9, 7]"
+        ],
+        [
+            120,
+            2017,
+            "Darkest Hour",
+            "Tim Bevan, Eric Fellner, Lisa Bruce, Anthony McCarten, and Douglas Urbanski",
+            "FALSE",
+            "120.jpg",
+            "[5, 8, 31], [185, 166, 142], [50, 52, 61], [232, 231, 233], [121, 111, 107]",
+            "[58, 18, 10, 6, 7]"
+        ],
+        [
+            121,
+            2017,
+            "Dunkirk",
+            "Emma Thomas and Christopher Nolan",
+            "FALSE",
+            "121.jpg",
+            "[125, 156, 165], [4, 9, 15], [73, 86, 92], [35, 43, 51], [186, 220, 227]",
+            "[10, 47, 12, 22, 8]"
+        ],
+        [
+            122,
+            2017,
+            "Get Out",
+            "Sean McKittrick, Jason Blum, Edward H. Hamm Jr., and Jordan Peele",
+            "FALSE",
+            "122.jpg",
+            "[54, 57, 60], [252, 252, 252], [118, 119, 121], [17, 20, 23], [188, 189, 190]",
+            "[17, 32, 10, 34, 7]"
+        ],
+        [
+            123,
+            2017,
+            "Lady Bird",
+            "Scott Rudin, Eli Bush, and Evelyn O'Neill",
+            "FALSE",
+            "123.jpg",
+            "[221, 217, 217], [60, 19, 11], [194, 161, 144], [168, 117, 92], [119, 69, 51]",
+            "[34, 19, 15, 16, 16]"
+        ],
+        [
+            124,
+            2017,
+            "Phantom Thread",
+            "JoAnne Sellar, Paul Thomas Anderson, Megan Ellison, and Daniel Lupi",
+            "FALSE",
+            "124.jpg",
+            "[88, 81, 74], [25, 25, 23], [207, 195, 188], [43, 43, 41], [153, 138, 128]",
+            "[7, 46, 2, 40, 5]"
+        ],
+        [
+            125,
+            2017,
+            "The Post",
+            "Amy Pascal, Steven Spielberg, and Kristie Macosko Krieger",
+            "FALSE",
+            "125.jpg",
+            "[249, 251, 251], [79, 95, 106], [152, 166, 176], [43, 58, 71], [114, 130, 140]",
+            "[29, 26, 14, 12, 21]"
+        ],
+        [
+            126,
+            2017,
+            "Three Billboards Outside Ebbing, Missouri",
+            "Graham Broadbent, Pete Czernin, and Martin McDonagh",
+            "FALSE",
+            "126.jpg",
+            "[40, 39, 47], [128, 121, 118], [14, 11, 11], [91, 73, 72], [206, 124, 83]",
+            "[41, 6, 29, 20, 4]"
+        ],
+        [
+            127,
+            2018,
+            "Green Book",
+            "Jim Burke, Charles B. Wessler, Brian Currie, Peter Farrelly, and Nick Vallelonga",
+            "TRUE",
+            "127.jpg",
+            "[10, 162, 178], [216, 230, 225], [9, 119, 140], [69, 71, 73], [99, 185, 195]",
+            "[38, 16, 23, 9, 14]"
+        ],
+        [
+            128,
+            2018,
+            "Black Panther",
+            "Kevin Feige",
+            "FALSE",
+            "128.jpg",
+            "[34, 47, 65], [197, 201, 186], [67, 93, 111], [9, 12, 17], [126, 139, 140]",
+            "[27, 8, 20, 29, 16]"
+        ],
+        [
+            129,
+            2018,
+            "BlacKkKlansman",
+            "Sean McKittrick, Jason Blum, Raymond Mansfield, Jordan Peele, and Spike Lee",
+            "FALSE",
+            "129.jpg",
+            "[249, 249, 250], [26, 24, 20], [132, 125, 120], [74, 63, 58], [187, 182, 181]",
+            "[36, 38, 9, 10, 7]"
+        ],
+        [
+            130,
+            2018,
+            "Bohemian Rhapsody",
+            "Graham King",
+            "FALSE",
+            "130.jpg",
+            "[244, 170, 35], [145, 45, 157], [65, 39, 21], [252, 199, 142], [210, 105, 156]",
+            "[23, 31, 12, 14, 21]"
+        ],
+        [
+            131,
+            2018,
+            "The Favourite",
+            "Ceci Dempsey, Ed Guiney, Lee Magiday, and Yorgos Lanthimos",
+            "FALSE",
+            "131.jpg",
+            "[226, 211, 190], [34, 31, 27], [134, 122, 106], [86, 78, 67], [188, 174, 153]",
+            "[75, 9, 6, 6, 4]"
+        ],
+        [
+            132,
+            2018,
+            "Roma",
+            "Gabriela Rodri­guez and Alfonso Cuaron",
+            "FALSE",
+            "132.jpg",
+            "[191, 183, 146], [23, 21, 20], [117, 116, 112], [229, 229, 228], [67, 66, 64]",
+            "[10, 12, 12, 39, 27]"
+        ],
+        [
+            133,
+            2018,
+            "A Star Is Born",
+            "Bill Gerber, Bradley Cooper, and Lynette Howell Taylor",
+            "FALSE",
+            "133.jpg",
+            "[55, 55, 53], [208, 207, 202], [140, 133, 118], [8, 9, 8], [246, 246, 245]",
+            "[11, 16, 10, 20, 42]"
+        ],
+        [
+            134,
+            2018,
+            "Vice",
+            "Dede Gardner, Jeremy Kleiner, Adam McKay, and Kevin Messick",
+            "FALSE",
+            "134.jpg",
+            "[3, 2, 1], [242, 224, 54], [239, 238, 234], [101, 89, 23], [175, 153, 50]",
+            "[63, 26, 4, 4, 3]"
+        ],
+        [
+            135,
+            2019,
+            "Parasite",
+            "Kwak Sin-ae and Bong Joon-ho",
+            "TRUE",
+            "135.jpg",
+            "[15, 32, 33], [246, 252, 250], [108, 157, 125], [165, 198, 190], [57, 122, 84]",
+            "[27, 26, 14, 11, 23]"
+        ],
+        [
+            136,
+            2019,
+            "Ford v Ferrari",
+            "Peter Chernin, Jenno Topping, and James Mangold",
+            "FALSE",
+            "136.jpg",
+            "[234, 240, 235], [86, 103, 113], [135, 160, 172], [39, 57, 70], [185, 205, 214]",
+            "[56, 11, 11, 10, 13]"
+        ],
+        [
+            137,
+            2019,
+            "The Irishman",
+            "Martin Scorsese, Robert De Niro, Jane Rosenthal, and Emma Tillinger Koskoff",
+            "FALSE",
+            "137.jpg",
+            "[79, 90, 103], [46, 48, 57], [153, 157, 164], [17, 17, 23], [167, 32, 40]",
+            "[23, 31, 8, 35, 2]"
+        ],
+        [
+            138,
+            2019,
+            "Jojo Rabbit",
+            "Carthew Neal, Taika Waititi, and Chelsea Winstanley",
+            "FALSE",
+            "138.jpg",
+            "[90, 83, 78], [213, 200, 183], [33, 32, 30], [168, 40, 39], [169, 146, 132]",
+            "[14, 22, 20, 28, 15]"
+        ],
+        [
+            139,
+            2019,
+            "Joker",
+            "Todd Phillips, Bradley Cooper, and Emma Tillinger Koskoff",
+            "FALSE",
+            "139.jpg",
+            "[38, 22, 15], [194, 198, 176], [134, 119, 83], [246, 243, 236], [84, 59, 38]",
+            "[39, 22, 11, 2, 25]"
+        ],
+        [
+            140,
+            2019,
+            "Little Women",
+            "Amy Pascal",
+            "FALSE",
+            "140.jpg",
+            "[48, 47, 38], [226, 208, 199], [13, 17, 15], [95, 86, 77], [155, 137, 125]",
+            "[25, 7, 43, 14, 10]"
+        ],
+        [
+            141,
+            2019,
+            "Marriage Story",
+            "Noah Baumbach and David Heyman",
+            "FALSE",
+            "141.jpg",
+            "[198, 175, 153], [90, 55, 38], [237, 226, 205], [28, 11, 6], [144, 105, 83]",
+            "[13, 17, 36, 20, 13]"
+        ],
+        [
+            142,
+            2019,
+            1917,
+            "Sam Mendes, Pippa Harris, Jayne-Ann Tenggren, and Callum McDougall",
+            "FALSE",
+            "142.jpg",
+            "[3, 3, 4], [59, 88, 128], [236, 168, 87], [33, 56, 81], [102, 80, 84]",
+            "[55, 19, 3, 13, 10]"
+        ],
+        [
+            143,
+            2019,
+            "Once Upon a Time in Hollywood",
+            "David Heyman, Shannon McIntosh, and Quentin Tarantino",
+            "FALSE",
+            "143.jpg",
+            "[240, 232, 222], [212, 87, 60], [46, 35, 23], [117, 87, 70], [209, 165, 129]",
+            "[41, 17, 13, 13, 16]"
+        ]
+    ]
+}
