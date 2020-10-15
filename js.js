@@ -40,6 +40,7 @@ for (let i=0; i < 20; i++){
 //   });
 // }
 
+
 for(let i=0; i<20; i++){
   var ctx = document.getElementById(i+2000+'pie');
   var myChart = new Chart(ctx, {
