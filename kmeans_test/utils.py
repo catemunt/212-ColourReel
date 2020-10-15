@@ -29,7 +29,6 @@ def centroid_histogram(clt):
 def plot_colors(hist, centroids, count):
 	# initialize the bar chart representing the relative frequency
 	# of each of the colors
-	#bar = np.zeros((50, 300, 3), dtype = "uint8")
 	bar = np.zeros((50, 300, 3), dtype = "uint8")
 	startX = 0
 
@@ -40,7 +39,6 @@ def plot_colors(hist, centroids, count):
 	percentagex = ''
 	for (percent, color) in zip(hist, centroids):
 		# plot the relative percentage of each cluster
-		#print(color)
 		endX = startX + (percent * 300)
 		cv2.rectangle(bar, (int(startX), 0), (int(endX), 50),
 			color.astype("uint8").tolist(), -1)
@@ -68,7 +66,7 @@ def plot_colors(hist, centroids, count):
 	print(colorsx)
 	print(percentagex)
 	addColours(colorsx,percentagex,count)
-		#print('hi')
+
 
 def addColours(colorsx,percentagex,count):
 	colors = str(colorsx)
@@ -80,5 +78,3 @@ def addColours(colorsx,percentagex,count):
 	#('UPDATE userInfo SET username=? WHERE username=?', (new_username, old_username))
 	con.commit()
 	con.close()
-
-#cur = con.execute('UPDATE films SET r = "red", g = "green", b = "blue", percentage = "percentage" WHERE id = "count"')
