@@ -1,9 +1,13 @@
 # import the necessary packages
 import numpy as np
 import cv2
+from flask import Flask, render_template, request, redirect, url_for
 import sqlite3
 
+app = Flask(__name__)
+
 DATADB = 'data.db'
+
 
 def centroid_histogram(clt):
 	# grab the number of different clusters and create a histogram
@@ -18,11 +22,12 @@ def centroid_histogram(clt):
 	# return the histogram
 	return hist
 
-def plot_colors(hist, centroids):
+def plot_colors(hist, centroids, count):
 	# initialize the bar chart representing the relative frequency
 	# of each of the colors
 	bar = np.zeros((50, 300, 3), dtype = "uint8")
 	startX = 0
+
 
 	# loop over the percentage of each cluster and the color of
 	# each cluster
@@ -38,6 +43,20 @@ def plot_colors(hist, centroids):
 		slices = (np.round(percent*100, 0).astype(int))
 		#print(colors)
 		#print(slices)
+		#return colors
+		#return slices
+		red = (np.round(color[0], 0).astype(int))
+		green = (np.round(color[1], 0).astype(int))
+		blue = (np.round(color[2], 0).astype(int))
+		print(red,green,blue)
+		percentage = (np.round(percent*100, 0).astype(int))
+		count = count
+		print(count)
+		addColours(red,green,blue,percentage,count)
+		print('hi')
 
-	# return the bar chart
-	#return bar
+def addColours(red,green,blue,percentage,count):
+    con = sqlite3.connect(DATADB)
+    cur = con.execute('UPDATE films SET r = "red", g = "green", b = "blue", percentage = "percentage" WHERE id = "count"')
+    con.commit()
+    con.close()

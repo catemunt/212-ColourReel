@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import argparse
 import utils
 import cv2
+from utils import addColours
 
 count = 1
 
@@ -17,7 +18,7 @@ for i in range (4):
 	print(poster)
 	clusters = 5
 	count = int(count)
-	count += 1
+
 	print(count)
 
 	# construct the argument parser and parse the arguments
@@ -33,11 +34,6 @@ for i in range (4):
 	image = cv2.imread(poster)
 	image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-	# # show our image
-	# plt.figure()
-	# plt.axis("off")
-	# plt.imshow(image)
-
 	# reshape the image to be a list of pixels
 	image = image.reshape((image.shape[0] * image.shape[1], 3))
 
@@ -49,10 +45,6 @@ for i in range (4):
 	# build a histogram of clusters and then create a figure
 	# representing the number of pixels labeled to each color
 	hist = utils.centroid_histogram(clt)
-	bar = utils.plot_colors(hist, clt.cluster_centers_)
+	bar = utils.plot_colors(hist, clt.cluster_centers_,count)
 
-	# show our color bart
-	# plt.figure()
-	# plt.axis("off")
-	# plt.imshow(bar)
-	# plt.show()
+	count += 1

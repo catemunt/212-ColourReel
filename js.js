@@ -1,24 +1,24 @@
 document.getElementById('charts').innerHTML = '';
 
-for (let i=0; i < 21; i++){
+for (let i=0; i < 20; i++){
   let pie = document.createElement('div');
-  pie.id = i+1999;
+  pie.id = i+2000;
   pie.className = 'pieDiv';
-  pie.innerHTML += i+1999;
+  pie.innerHTML += i+2000;
   document.getElementById('charts').appendChild(pie);
 }
 
 
-for (let i=0; i < 21; i++){
+for (let i=0; i < 20; i++){
   let chart = document.createElement('canvas');
-  chart.id = i+1999+'pie';
+  chart.id = i+2000+'pie';
   chart.className = 'chartychart';
   chart.innerHTML += 'hi';
-  document.getElementById(i+1999).appendChild(chart);
+  document.getElementById(i+2000).appendChild(chart);
 }
 
-for(let i=0; i<21; i++){
-  var ctx = document.getElementById(i+1999+'pie');
+for(let i=0; i<20; i++){
+  var ctx = document.getElementById(i+2000+'pie');
   var myChart = new Chart(ctx, {
       type: 'pie',
       data: {
