@@ -11,7 +11,7 @@ from utils import addColours
 
 count = 1
 
-for i in range (4):
+for i in range (143):
 
 	count = str(count)
 	poster = 'images/' + count + '.jpg'
@@ -19,7 +19,7 @@ for i in range (4):
 	clusters = 5
 	count = int(count)
 
-	print(count)
+	#print(count)
 
 	# construct the argument parser and parse the arguments
 	# ap = argparse.ArgumentParser()
